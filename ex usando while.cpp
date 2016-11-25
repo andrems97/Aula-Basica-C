@@ -46,7 +46,7 @@ main()
 		}
 		
 	}	
-	printf("\n ******\tCHORA ANDRE PAU NO CU******\t")	
+	printf("\n ******\tCHORA ANDRE PAU NO CU******\t\n\n")	;
 	system("pause");
 	
 	
