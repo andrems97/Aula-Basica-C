@@ -1,8 +1,9 @@
 #include<stdio.h>
+#include<stdlib.h>
 main()
 {
 	int matriz[2][4],a=0,b=0,cont=0,num=0;
-	while(cont<=8){
+	while(cont<8){
 		printf("\nDigite um numero\n");
 		scanf("%d",&num);
 		if((num < 0)|| (num>20)){
@@ -45,8 +46,8 @@ main()
 		}
 		
 	}	
-		
-	
+	printf("\n ******\tCHORA ANDRE PAU NO CU******\t")	
+	system("pause");
 	
 	
 	
