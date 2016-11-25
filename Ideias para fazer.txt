@@ -1,0 +1,3 @@
+-Jogo xadrez
+-Jogo velha
+-Programa que faz combinatoria "criptografia"
