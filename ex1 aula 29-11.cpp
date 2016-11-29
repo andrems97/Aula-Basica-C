@@ -20,7 +20,6 @@ main()
 						}
 				
 		}
-	printf("\n\n\n%d\n\n\n",matriz[0][2]);
 		for(a=0;a<3;a++){
 				for(b=0;b<3;b++){
 					total=matriz[a][b]+total;
@@ -29,3 +28,4 @@ main()
 		media=total/9;
 		printf("A media e\t %f\n",media);
 }
+
