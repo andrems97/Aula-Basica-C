@@ -16,7 +16,7 @@ main()
 		b=0;
 		a++;
 	}
-	
+	a=0;b=0;
 	while(a<2){
 		while(b<2){
 			soma = soma + matriz[a][b];
