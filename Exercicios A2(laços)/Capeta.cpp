@@ -1,5 +1,5 @@
 #include<stdio.h>
-calc(int soma,int cont){
+int calc(int soma,int cont){
 	int media;
 	media=soma/cont;
 	printf("\n\nA media da matriz e %d",media);

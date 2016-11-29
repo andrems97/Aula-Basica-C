@@ -32,5 +32,5 @@ main()
 		
 	}
 	media= total / 9;
-	printf("\nA media dos elementos da matriz e:  %f\n\n",total);
+	printf("\nA media dos elementos da matriz e:  %f\n\n",media);
 }

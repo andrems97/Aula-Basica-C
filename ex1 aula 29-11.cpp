@@ -1,26 +1,26 @@
 #include <stdio.h>
 main()
 {
-		int a=0,matriz[3][3],b=0,total=0,c=1,num;
-		float media;
+		int a=0,matriz[3][3],b=0,c=1,num;
+		float media,total;
 		for(a=0;a<3;a++){
 				for(b=0;b<3;b++){
-while(c<=9){
-inicio:
+				
+						inicio:
 						printf("%d Digite um numero multiplo de 3\n",c);
 						scanf("%d",&num);
 						if((num%3)!=0){
 								printf("Digite novamente\n");
-goto inicio;
+									goto inicio;
 						}
 						else{
 								matriz[a][b]=num;
 							}
-c++;
+									
 						}
-				}
+				
 		}
-
+	printf("\n\n\n%d\n\n\n",matriz[0][2]);
 		for(a=0;a<3;a++){
 				for(b=0;b<3;b++){
 					total=matriz[a][b]+total;
