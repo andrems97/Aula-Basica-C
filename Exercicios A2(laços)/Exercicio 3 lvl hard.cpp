@@ -58,7 +58,6 @@ main()
 	total=total *2;
 	printf("\nO total da soma dos elementos vezes 2 e %d\n",total);
 	
-	printf("\n ******\tCHORA ANDRE PAU NO CU******\t\n\n")	;
 	system("pause");
 	
 	
